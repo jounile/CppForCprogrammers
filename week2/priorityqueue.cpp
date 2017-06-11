@@ -3,39 +3,48 @@
  *
  */
 
-#include <iostream>
+#include "PriorityQueue.h"
  
-using namespace std;
 
-class PriorityQueue {
+// Constructor
+PriorityQueue():head(0):cursor(0) { }
 
-public: 
-        // Constructor
-	PriorityQueue():head(0):cursor(0) { }
+// Destructor
+~PriorityQueue();
 
-	// Destructor
-	~PriorityQueue();
+// Changes the priority (node value) of queue element.
+void chgPrioirity(PQ, priority) 
+{ 
 
-	// Changes the priority (node value) of queue element.
-	chgPrioirity(PQ, priority) { } 
+}
 
-	// Removes the top element of the queue.
-	minPrioirty(PQ) { }
+// Removes the top element of the queue.
+void minPrioirty(PQ) 
+{ 
 
-	// Does the queue contain queue_element.
-	contains(PQ, queue_element) { }
+}
 
-	// Insert queue_element into queue
-        insert(PQ, queue_element) { }
+// Does the queue contain queue_element.
+void contains(PQ, queue_element) 
+{ 
 
-	// Returns the top element of the queue.
-	top(PQ) { }
+}
 
-	// Return the number of queue_elements. 
-	size(PQ) { }
+// Insert queue_element into queue
+void insert(PQ, queue_element) 
+{ 
 
-private:
+}
 
+// Returns the top element of the queue.
+void top(PQ) 
+{ 
+
+}
+
+// Return the number of queue_elements.
+int size(PQ) 
+{ 
 
 }
 
