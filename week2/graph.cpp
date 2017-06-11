@@ -21,43 +21,47 @@ Graph::Graph(void) {
 	cout << "Object is being created" << endl;
 }
 
-V (G) {
+Graph::~Graph(void) {
+	cout << "Object is being deleted" << endl;
+}
+
+void Graph::V(G) {
 
 }
 
-E (G) {
+void Graph::E(G) {
 
 }
 
-adjacent (G, x, y) {
+void Graph::adjacent (G, x, y) {
 
 }
 
-neighbors (G, x) {
+void Graph::neighbors (G, x) {
 
 }
 
-add (G, x, y) {
+void Graph::add (G, x, y) {
 
 }
 
-delete (G, x, y) {
+void Graph::delete (G, x, y) {
 
 }
 
-int get_node_value (G, x) {
+int Graph::get_node_value (G, x) {
 
 }
 
-void set_node_value( G, x, a) {
+void Graph::set_node_value( G, x, a) {
 
 }
 
-int get_edge_value( G, x, y) {
+int Graph::get_edge_value( G, x, y) {
 
 }
 
-void set_edge_value (G, x, y, v) {
+void Graph::set_edge_value (G, x, y, v) {
 
 }
 
